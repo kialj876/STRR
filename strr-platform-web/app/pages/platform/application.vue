@@ -10,7 +10,13 @@ const { validatePlatformBusiness } = useStrrPlatformBusiness()
 const { validatePlatformDetails } = useStrrPlatformDetails()
 const { submitPlatformApplication, validatePlatformConfirmation } = useStrrPlatformApplication()
 // fee stuff
-const { addReplaceFee, getFee, removeFee, setPlaceholderFilingTypeCode, setPlaceholderServiceFee } = useConnectFee()
+const {
+  addReplaceFee,
+  getFee,
+  removeFee,
+  setPlaceholderFilingTypeCode,
+  setPlaceholderServiceFee
+} = useConnectFeeStore()
 
 setPlaceholderFilingTypeCode(ConnectFeeCode.STR_PLAT_SM)
 
