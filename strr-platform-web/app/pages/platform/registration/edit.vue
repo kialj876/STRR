@@ -16,8 +16,8 @@ setBreadcrumbs([
 </script>
 <template>
   <div>
-    TBD
-    - edit registration values (this will be similar to business-edit?)
-    - is this page necessary? Could all edits be inline inside the registration dashboard?
+    <p>TBD</p>
+    <p>- edit registration values (this will be similar to business-edit?)</p>
+    <p>- is this page necessary? Could all edits be inline inside the registration dashboard?</p>
   </div>
 </template>
