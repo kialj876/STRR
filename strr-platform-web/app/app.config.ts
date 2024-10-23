@@ -1,5 +1,16 @@
 export default defineAppConfig({
   ui: {
+    strategy: 'merge',
+    // accordion: {
+    //   wrapper: 'divide-y',
+    //   container: 'border-gray-400',
+    //   item: {
+    //     color: 'text-gray-700'
+    //   },
+    //   default: {
+    //     class: 'm-0 p-3 text-gray-900 font-bold bg-white hover:bg-gray-200 rounded-none'
+    //   }
+    // },
     button: {
       color: {
         red: {

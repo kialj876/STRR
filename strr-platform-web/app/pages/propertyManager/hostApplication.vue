@@ -159,7 +159,6 @@ useHead({
 
 definePageMeta({
   layout: 'connect-form',
-  order: 1,
   path: '/property-manager/host-application'
 })
 

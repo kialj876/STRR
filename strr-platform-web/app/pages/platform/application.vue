@@ -207,17 +207,18 @@ watch(activeStepIndex, (val) => {
 
 // page stuff
 useHead({
-  title: t('platform.title')
+  title: t('platform.title.application')
 })
 
 definePageMeta({
   layout: 'connect-form',
-  order: 1,
   path: '/platform/application'
 })
 
 setBreadcrumbs([
-  { label: t('platform.title') }
+  { label: t('label.bcregDash'), to: useRuntimeConfig().public.registryHomeURL + 'dashboard' },
+  { label: t('platform.title.dashboard'), to: useLocalePath()('/platform/dashboard') },
+  { label: t('platform.title.application') }
 ])
 </script>
 <template>
