@@ -18,7 +18,7 @@ setBreadcrumbs([
 ])
 </script>
 <template>
-  <div class="space-y-5 py-10">
+  <div class="app-inner-container space-y-5 py-10">
     <ConnectTypographyH1 :text="$t('platform.title.dashboard')" />
     <div class="space-y-5 *:bg-white *:p-5">
       <div>
