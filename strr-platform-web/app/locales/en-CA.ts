@@ -194,7 +194,8 @@ export default {
     Added: 'Added',
     Yes: 'Yes',
     No: 'No',
-    Edit: 'Edit'
+    Edit: 'Edit',
+    Save: 'Save'
   },
   page: {
     notFound: {
@@ -208,6 +209,7 @@ export default {
   },
   table: {},
   text: {
+    completeFilingToDisplay: 'Complete your filing to display',
     filingsWillAppear: 'Filings that require your attention will appear here',
     notAvailable: 'Not Available',
     notEntered: 'Not Entered',

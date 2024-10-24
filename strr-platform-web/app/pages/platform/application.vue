@@ -223,7 +223,7 @@ setBreadcrumbs([
 </script>
 <template>
   <div class="space-y-8 py-8 sm:py-10">
-    <ConnectTypographyH1 :text="t('platform.title')" class="my-5" />
+    <ConnectTypographyH1 :text="t('platform.title.application')" class="my-5" />
     <ConnectStepper
       ref="stepperRef"
       :key="0"

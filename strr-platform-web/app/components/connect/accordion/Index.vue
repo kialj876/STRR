@@ -1,9 +1,9 @@
 <script setup lang="ts">
-defineProps<{ items: ConnectAccordionItem[] }>()
+defineProps<{ items: ConnectAccordionItem[], multiple?: boolean }>()
 </script>
 
 <template>
-  <UAccordion :items="items">
+  <UAccordion :items="items" :multiple="multiple">
     <template #default="{ item, open }">
       <UButton
         ref="accordionButton"
@@ -27,7 +27,7 @@ defineProps<{ items: ConnectAccordionItem[] }>()
       </UButton>
     </template>
     <template #item="{ item }">
-      <ConnectAccordionItem class="px-4" :item="item" :pad-left="item.showAvatar" />
+      <ConnectAccordionItem class="px-4" :class="item.class" :item="item" :pad-left="item.showAvatar" />
     </template>
   </UAccordion>
 </template>
