@@ -280,7 +280,7 @@ onMounted(async () => {
         >
           <div class="space-y-5">
             <p>{{ $t('platform.text.takedownEmail') }}</p>
-            <ConnectFieldGroup
+            <ConnectFormFieldGroup
               id="platform-business-takedown-email"
               v-model="platformBusiness.takeDownEmail"
               :aria-label="$t('label.emailAddress')"
